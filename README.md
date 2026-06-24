@@ -3,7 +3,7 @@
 Proyecto de demostración desarrollado con **HTML, CSS y JavaScript puro** (sin frameworks), como muestra de habilidades frontend para mi portfolio.
 
 ## 🔗 Demo en vivo
-> [Ver demo](https://rodrigodevAR.github.io/landing-page-demo) *(disponible al publicar en GitHub Pages)*
+> [Ver demo](https://rodrigomercado1808-dev.github.io/landingPageDemo/) *(disponible al publicar en GitHub Pages)*
 
 ## ✨ Características
 
