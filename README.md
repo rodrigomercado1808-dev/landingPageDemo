@@ -47,7 +47,7 @@ landing-page/
 ## 📬 Contacto
 
 - **Freelancer:** [freelancer.com/u/rodrigodevAR](https://www.freelancer.com/u/rodrigodevAR)
-- **GitHub:** [github.com/rodrigodevAR](https://github.com/rodrigodevAR)
+- **GitHub:** [github.com/rodrigodevAR](https://github.com/rodrigomercado1808-dev)
 
 ---
 
