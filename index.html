@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Landing page responsiva con formulario de contacto — desarrollada con HTML, CSS y JavaScript puro." />
+  <title>DevSolutions | Servicios Web Profesionales</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo">Dev<span>Solutions</span></a>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#tecnologias">Tecnologías</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <span class="badge">Desarrollador Web Junior</span>
+      <h1>Soluciones web <br /><span class="highlight">rápidas y profesionales</span></h1>
+      <p class="hero-sub">Diseño y desarrollo sitios web modernos, responsivos y optimizados para que tu negocio destaque en internet.</p>
+      <div class="hero-cta">
+        <a href="#contacto" class="btn btn-primary">Hablemos de tu proyecto</a>
+        <a href="#servicios" class="btn btn-outline">Ver servicios</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICIOS ===== -->
+  <section class="section" id="servicios">
+    <div class="container">
+      <div class="section-header">
+        <span class="tag">¿Qué ofrezco?</span>
+        <h2>Servicios</h2>
+        <p>Todo lo que necesitás para tener presencia profesional en la web.</p>
+      </div>
+      <div class="cards-grid">
+        <div class="card" data-aos="fade-up">
+          <div class="card-icon">🎨</div>
+          <h3>Diseño Responsivo</h3>
+          <p>Tu sitio se verá perfecto en cualquier dispositivo — celular, tablet o desktop.</p>
+        </div>
+        <div class="card" data-aos="fade-up" data-delay="100">
+          <div class="card-icon">⚡</div>
+          <h3>Performance</h3>
+          <p>Código limpio y optimizado para que tu página cargue rápido y posicione mejor.</p>
+        </div>
+        <div class="card" data-aos="fade-up" data-delay="200">
+          <div class="card-icon">📬</div>
+          <h3>Formularios</h3>
+          <p>Formularios de contacto con validación en tiempo real para capturar leads.</p>
+        </div>
+        <div class="card" data-aos="fade-up" data-delay="300">
+          <div class="card-icon">🔧</div>
+          <h3>Mantenimiento</h3>
+          <p>Soporte post-entrega para que tu sitio esté siempre actualizado y funcionando.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SOBRE MÍ ===== -->
+  <section class="section section-alt" id="sobre-mi">
+    <div class="container about-grid">
+      <div class="about-visual">
+        <div class="about-badge-wrap">
+          <div class="about-avatar">RM</div>
+          <span class="about-badge">Disponible para proyectos</span>
+        </div>
+      </div>
+      <div class="about-text">
+        <span class="tag">Sobre mí</span>
+        <h2>Hola, soy Rodrigo</h2>
+        <p>Soy desarrollador web junior autodidacta de Argentina. Aprendí todo de forma independiente — practicando, construyendo proyectos y estudiando de manera constante.</p>
+        <p>Me apasiona crear interfaces limpias y funcionales. Trabajo con atención al detalle, cumpliendo plazos y comunicándome claramente con cada cliente.</p>
+        <ul class="about-list">
+          <li>✓ Autodidacta con fuerte base práctica</li>
+          <li>✓ Enfocado en resultados y calidad</li>
+          <li>✓ Comunicación clara en cada etapa</li>
+          <li>✓ Aprendiendo constantemente</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TECNOLOGÍAS ===== -->
+  <section class="section" id="tecnologias">
+    <div class="container">
+      <div class="section-header">
+        <span class="tag">Stack</span>
+        <h2>Tecnologías</h2>
+        <p>Las herramientas con las que trabajo.</p>
+      </div>
+      <div class="tech-grid">
+        <div class="tech-item"><span class="tech-icon">🌐</span><span>HTML5</span></div>
+        <div class="tech-item"><span class="tech-icon">🎨</span><span>CSS3</span></div>
+        <div class="tech-item"><span class="tech-icon">⚡</span><span>JavaScript</span></div>
+        <div class="tech-item"><span class="tech-icon">⚛️</span><span>React.js</span></div>
+        <div class="tech-item"><span class="tech-icon">🟢</span><span>Node.js</span></div>
+        <div class="tech-item"><span class="tech-icon">🗄️</span><span>MySQL</span></div>
+        <div class="tech-item"><span class="tech-icon">🔥</span><span>Firebase</span></div>
+        <div class="tech-item"><span class="tech-icon">🐙</span><span>Git & GitHub</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACTO ===== -->
+  <section class="section section-alt" id="contacto">
+    <div class="container contact-wrap">
+      <div class="section-header">
+        <span class="tag">¿Hablamos?</span>
+        <h2>Contacto</h2>
+        <p>Contame tu proyecto y te respondo en menos de 24 horas.</p>
+      </div>
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nombre">Nombre <span class="required">*</span></label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" autocomplete="off" />
+            <span class="error-msg" id="error-nombre"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email <span class="required">*</span></label>
+            <input type="email" id="email" name="email" placeholder="tu@email.com" autocomplete="off" />
+            <span class="error-msg" id="error-email"></span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="asunto">Asunto <span class="required">*</span></label>
+          <input type="text" id="asunto" name="asunto" placeholder="¿En qué te puedo ayudar?" autocomplete="off" />
+          <span class="error-msg" id="error-asunto"></span>
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje <span class="required">*</span></label>
+          <textarea id="mensaje" name="mensaje" rows="5" placeholder="Contame los detalles de tu proyecto..."></textarea>
+          <span class="error-msg" id="error-mensaje"></span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+          <span class="btn-text">Enviar mensaje</span>
+          <span class="btn-loader" hidden>Enviando…</span>
+        </button>
+        <div class="form-success" id="formSuccess" hidden>
+          ✅ ¡Mensaje enviado! Te respondo pronto.
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="logo">Dev<span>Solutions</span></span>
+      <p>Desarrollado con ❤️ por Rodrigo Mercado · Argentina</p>
+      <div class="footer-links">
+        <a href="https://github.com/rodrigodevAR" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.freelancer.com/u/rodrigodevAR" target="_blank" rel="noopener">Freelancer</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
